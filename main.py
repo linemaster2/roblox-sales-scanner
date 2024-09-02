@@ -80,5 +80,5 @@ class Roblox:
 
 rbx = Roblox(config["COOKIE"])
 
-result = rbx.check(int(config["USER_ID_TO_CHECK"]), int(config["GAMEPASS_ID_TO_CHECK"])) # change these which ones to check
+result = rbx.check(int(config["USER_ID_TO_CHECK"]), int(config["GAMEPASS_ID_TO_CHECK"]))
 print(result)
